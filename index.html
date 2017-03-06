@@ -4,16 +4,39 @@
     <meta charset="utf-8">
     <title>Google</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   </head>
   <body>
     <header> <!-- Header part -->
-      <a href="https://mail.google.com/mail/?tab=wm">Gmail</a>
-      <a href="https://www.google.com/imghp?hl=en&tab=wi&ei=dz29WKi6O8WqsAHk87zgDg&ved=0EKouCBcoAQ">Images</a>
-      <a href="https://accounts.google.com/ServiceLogin">Connexion</a>
+      <nav>
+        <ol>
+          <li class="gmail"><a href="https://mail.google.com/mail/?tab=wm">Gmail</a></li>
+          <li class="image"><a href="https://www.google.com/imghp?hl=en&tab=wi&ei=dz29WKi6O8WqsAHk87zgDg&ved=0EKouCBcoAQ">Images</a></li>
+          <li class="apps"><a href="#"><i class="material-icons">apps</i></a></li>
+          <li class="login"><a href="https://accounts.google.com/ServiceLogin">Sign in</a></li>
+        </ol>
+      </nav>
     </header> <!-- Header part -->
     <section> <!-- Section part -->
       <img src="Images/googlelogo.png" alt="Logo-Google">
-      <input type="search" name="searchgoogle" value="">
+      <input type="text" name="search" placeholder="">
+      <div>
+      <a class="gsearch" href="#">Google Search</a>
+      <a class="lucky" href="#">I'm Feeling Lucky</a>
+      </div>
     </section> <!-- Section part -->
+    <footer> <!-- Footer part -->
+      <div class="footer1">
+        <a href="#">Advertising</a>
+        <a href="#">Business</a>
+        <a href="#">About</a>
+      </div>
+      <div class="footer2">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Settings</a>
+        <a href="#">Use Google.fr</a>
+      </div>
+    </footer> <!-- Footer part -->
   </body>
 </html>

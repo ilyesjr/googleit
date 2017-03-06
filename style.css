@@ -1,0 +1,127 @@
+header
+{
+  text-align: right;
+  display: block;
+  background-color: ;
+  padding-bottom: 100px;
+  margin: 5px 20px 5px 5px;
+}
+
+li
+{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 13px;
+  font-family: arial;
+}
+
+a:link
+{
+  text-decoration: none;
+}
+
+a
+{
+  color: #737373;
+}
+
+.login a
+{
+  color: white;
+  font-weight: bold;
+}
+.gmail
+{
+  padding-right: 8px;
+}
+.image
+{
+  padding-right: 8px;
+}
+.apps
+{
+  padding-right: 8px;
+}
+.login
+{
+  padding: 7px 10px 7px 10px;
+  background-color: #4485F4;
+  border-radius: 3px;
+}
+
+section img, section input
+{
+  text-align: center;
+  display: block;
+  background-color: ;
+}
+
+section img
+{
+  padding-bottom: 20px;
+  padding-top: 100px;
+  margin-left: 40%;
+}
+
+section input
+{
+  width: 500px;
+  height: 30px;
+  margin-left: 33%;
+  padding: 0.2em 0.5em 0.2em 0.5em;
+  border-radius: 3px;
+  border-color: lightgrey;
+  box-shadow: 5px 5px 2px darkgrey;
+  text-align: left;
+}
+
+.gsearch
+{
+  display: inline-block;
+  background-color: #F4F4F4;
+  padding: 7px 10px 7px 10px;
+  align-items: center;
+  font-weight: bold;
+}
+
+
+.lucky
+{
+  display: inline-block;
+  background-color: #F4F4F4;
+  padding: 7px 10px 7px 10px;
+  align-items: center;
+  font-weight: bold;
+}
+
+section div
+{
+  display: block;
+  margin-left: 40%;
+  padding-top: 2%;
+}
+
+section a:hover
+{
+  color: black;
+  border-style: inset;
+  border-color: grey;
+}
+
+footer
+{
+  margin-top: 16em;
+  background-color: #F2F2F2;
+}
+
+footer .footer1
+{
+  display: inline-block;
+  float: left;
+}
+
+footer .footer2
+{
+  display: inline-block;
+  float: right;
+}
