@@ -68,8 +68,9 @@ section input
   margin-left: 33%;
   padding: 0.2em 0.5em 0.2em 0.5em;
   border-radius: 3px;
-  border-color: lightgrey;
-  box-shadow: 5px 5px 2px darkgrey;
+  border-color: silver;
+  border-width: thin;
+  box-shadow: 1px 1px 0.5px silver;
   text-align: left;
 }
 
@@ -102,8 +103,10 @@ section div
 section a:hover
 {
   color: black;
-  border-style: inset;
-  border-color: grey;
+  border-style: solid;
+  border-width: thin;
+  border-color: lightgrey;
+  box-shadow: 0.5px 0.5px 0.5px grey;
 }
 
 footer
